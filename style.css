@@ -1,0 +1,78 @@
+body {
+    background-color: azure;
+}
+
+#toDo {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding:5px;
+    gap:10px;
+}
+
+button {
+    width:30px;
+    height:30px;
+    border-radius: 50px;
+    border:none;
+    background-color: rgb(103, 183, 253);
+    color:aliceblue;
+    font-size:20px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(178, 217, 250);
+}
+
+button:active {
+    background-color: rgb(120, 193, 253);
+}
+
+input {
+    height:30px;
+    width: 25%;
+    border:none;
+    border-radius: 50px;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+.butonSpecial {
+    background-color: red;
+    font-size:18px;
+    text-align: center;
+    padding:1px;
+    margin:0;
+}
+.butonSpecial:hover {
+    background-color: rgb(148, 30, 30);
+
+}
+
+.textSpecial {
+    background-color: transparent;
+    width: 100px;
+    height:30px;
+}
+
+.nushMan {
+    background-color: bisque;
+    width: 300px;
+    border-radius: 50px;
+    padding:4px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    float: left;
+}
+
+.divspecial {
+    display: flex;
+    align-items: center;
+    width:90%;
+}
